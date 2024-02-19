@@ -3,7 +3,7 @@ export const App = () => {
     <div className="flex flex-col items-center gap-y-7">
       <h1 className='text-center'>Ambiente de pruebas de chatbot la fabril</h1>
       <p className='text-center'>Este es un ambiente de pruebas para el chatbot de la fabril</p>
-      <img src="../public/lafabril.png" alt="logo la fabril" />
+      <img src="/lafabril.png" alt="logo la fabril" />
       <div className="z-[999] fixed bottom-20 right-4" dangerouslySetInnerHTML={{ __html: `
           <df-messenger
             location="us-central1"
